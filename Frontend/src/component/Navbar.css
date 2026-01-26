@@ -1,0 +1,19 @@
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+ul{
+    list-style: none ;
+    background-color: chocolate;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: pink;
+    cursor: pointer;
+}     

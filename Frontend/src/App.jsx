@@ -21,15 +21,19 @@
 //   )
 // }
 import Navbar from './component/Navbar'
-const App = () => {
-  const element=<h2>Welcome to React</h2>
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Service1 from './Pages/Service1'
+import Contact from './Pages/Contact'
+import Counter from './component/Counter'
+const App = () =>{
   return (
     <>  
-   <h1>hello</h1>
-   {element}
-  <Navbar/>
+    <Navbar/>
+     <Routes>
+       <Route path='/home' element={<home/>}/>
+      </Routes>
    </>
-  ) 
+  )   
 }
-
 export default App
