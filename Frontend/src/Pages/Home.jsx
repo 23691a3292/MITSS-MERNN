@@ -1,9 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const Home = (props) => {
+const Home = ({name}) => {
+  const navigate = useNavigate();
+  const handleClick = () =>{
+    navigate('/about');
+
   return (
-    <div>Home</div>
+    <div>
+      <h1>Name:{name}</h1>
+      <button onClick={handleClick}>Go to about page</button>
+    </div>
   )
+}
 }
 
 export default Home

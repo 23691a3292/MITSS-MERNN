@@ -1,8 +1,12 @@
 import React from 'react'
 
-const About = () => {
+const About = ({dept,name,age})=> {
   return (
-    <div>About</div>
+    <div>
+      <p>Nme:{name}</p>
+      <p>Age:{age}</p>
+      <p>dept:{dept}</p>  
+    </div>
   )
 }
 
