@@ -53,17 +53,17 @@ const Login = () => {
         <form onSubmit={handleSubmit}>
             <label>Email :</label>
             <input type="email" 
-             value={userData.email} 
-             name="email" 
-             onChange={handleChange} 
-             placeholder='Enter the Email'/>
+            value={userData.email} 
+            name="email" 
+            onChange={handleChange} 
+            placeholder='Enter the Email'/>
             <br></br>
             <label>password:</label>
-             <input type="password"
-             value={userData.password} 
-             name="password" 
-             onChange={handleChange}/>
-             placeholder='Enter the Password'
+            <input type="password"
+            value={userData.password} 
+            name="password" 
+            onChange={handleChange}
+            placeholder='Enter the Password'/>
             <br></br>
             <button type="submit"> Login </button>
         </form>
