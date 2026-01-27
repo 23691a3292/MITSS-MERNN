@@ -19,7 +19,8 @@ const App = () =>{
       <Route path='/services' element={<Service1/>}/>
       <Route path='/counter' element={<Counter/>}/>
       <Route path='/useState' element={<UseState/>}/>
-       <Route path='/login' element={<Login/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/hook' element={<Hooks/>}/>
     </Routes>
     </>
    )
