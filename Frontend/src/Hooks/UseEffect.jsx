@@ -3,14 +3,19 @@ import React, { useEffect, useState } from 'react'
 const UseEffect = () => {
     const [count, setCount] = useState(0);
     const [value, setValue] = useState(0);
+    const handleIncrement=()=>{
+       setCount(count=>count+1);
+       setCount((count)=>count+1);
+       setCount((count)=>count+1);
+    }
     useEffect(()=>{
     
         console.log("UseEffect Mounted");
-    },[count])
+    })
   return (
     <div>
       <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={handleIncrement}>Increment</button>
       <h1>{value}</h1>
       <button onClick={() => setValue(value + 1)}>Increment</button>
     </div>

@@ -10,6 +10,7 @@ const Home = ({name}) => {
     <div>
       <h1>Name:{name}</h1>
       <button onClick={handleClick}>Go to about page</button>
+      <About name={name}/>
     </div>
   )
 }
