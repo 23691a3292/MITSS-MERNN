@@ -15,7 +15,7 @@ const reducer=(state,action)=>{
       return {count:state.count};
     }
   }
-
+ 
 }
 const UseReducer = () => {
   const[state,dispatch]=useReducer(reducer,initialValue);

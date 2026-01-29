@@ -32,6 +32,9 @@ const Navbar = () => {
                 <li><Link to="/useState">UseState</Link></li>
                 <li><Link to="/hook">Hook</Link></li>
                 <li><Link to="/signup">Signup</Link></li>
+                <li><Link className='link' to="/hook">Hook</Link></li>
+                <li><Link className='link' to="/UseReducer">UseReducer</Link></li>
+                <li><Link className='link' to="/UseMemo">UseMemo</Link></li>
             </ul>
         </nav>
     </div>
